@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+   
+    <title>Sankirth's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -15,67 +15,61 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-
     </header>
+
     <main>
+        <!-- About Section -->
         <section id="about">
-            <h2>About me</h2>
+            <h2>About Me</h2>
             <p>
-            Hello! I’m <strong>Sankirth</strong>, a <b>ELECTRONICS AND COMMUNATION</b> branch from 
-            <b>AMRITA VISHWA VIDYAPEETHAM,Coimbatore</b>.
-            with a growing interest in programming and technology. I've started exploring Java, C++, and MySQL through  projects and enjoy learning new skills and solving problems.
+                Hello! I’m <strong>Sankirth</strong>, from the <strong>Electronics and Communication</strong> branch at 
+                <strong>Amrita Vishwa Vidyapeetham, Coimbatore</strong>.
+                I have a growing interest in programming and technology. I’m exploring Java, C++, and MySQL through various projects and enjoy learning new skills and solving problems.
             </p>
-            <img src="web-dev.webp" alt="please wait,image is loading" width="500px" height="400px">
-
+            <img src="web-dev.webp" alt="Web development illustration" width="700" height="400">
         </section>
-        
+
+        <!-- Projects Section -->
         <section id="projects">
-            <h2>
-                Projects
-            </h2>
-            <p>
-                I have created :
-                <li><b> employee payroll system</b> </li>   
-                <li><b> portfolio website</b> </li>
-            </p>
-
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Employee Payroll System</strong></li>
+                <li><strong>Portfolio Website</strong></li>
+            </ul>
         </section>
-        
+
+        <!-- Contact Section -->
         <section id="contact">
             <h2>Contact Me</h2>
-            <form action=""></form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
 
-           <label for="email">Email:</label><br>
-           <input type="email" name="email" id="email"><br>
-           <label for="message">Message:</label><br>
-           <input type="textarea" id="message" name="message"><br><br>
-           <button type="submit">submit</button>
-           <button type="reset">reset</button>
-           <br>
-            <p>
-                <li><b>Contact Information</b></li> 
-            <li>Emall:sankirth969@gmail.ecom</li> 
-            <li>Phone number:7386522424</li> 
-            </p>
-            
-           <h3> My Location</h3>
-           <iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.064032176275!2d76.8957714142876!3d10.90379575841825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85c95d3e828eb%3A0x2785cb4510629029!2sAmrita%20Vishwa%20Vidyapeetham%2C%20Coimbatore!5e0!3m2!1sen!2sin!4v1688999999999!5m2!1sen!2sin" 
-  width="400" 
-  height="300" 
-  style="border:0;" 
-  allowfullscreen="" 
-  loading="lazy" 
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+
+            <h3>My Location</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.064032176275!2d76.8957714142876!3d10.90379575841825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85c95d3e828eb%3A0x2785cb4510629029!2sAmrita%20Vishwa%20Vidyapeetham%2C%20Coimbatore!5e0!3m2!1sen!2sin!4v1688999999999!5m2!1sen!2sin" 
+                width="800" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </section>
-
     </main>
-    <footer>
 
+    <footer>
+        <p>&copy; 2025 Sankirth. All rights reserved.</p>
     </footer>
-    
 </body>
 </html>
